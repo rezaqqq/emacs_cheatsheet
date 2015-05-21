@@ -11,6 +11,13 @@
 |`C-x C-s`   | Save|
 |`C-x C-c`   | Close|
 
+### Moving
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-f `      | forward a word|
+|`M-b`       | backward a word|
+
 ### Editing
 
 |Keystrokes  | Action|
