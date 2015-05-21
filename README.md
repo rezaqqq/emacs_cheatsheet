@@ -5,8 +5,8 @@
 
 ### Files
 
-Keystrokes  | Action
-- - - - -  -| - - - - - - 
-`C-x C-f`   | Create/Open
-`C-x C-s`   | Save
-`C-x C-c`   | Close
+|Keystrokes  | Action|
+|------------|------------
+|`C-x C-f`   | Create/Open|
+|`C-x C-s`   | Save|
+|`C-x C-c`   | Close|
