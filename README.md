@@ -7,6 +7,7 @@
 |`C-h k`| Describe command from keystrokes|
 |`C-h f`| Describe command from function name|
 |`C-h ?`| help suggestions|
+|`C-x 1`| to close `*Help*` buffer|
 
 ### Files
 
@@ -50,7 +51,11 @@
 |------------|------------
 |`C-space`     | by line
 |`C-x space`   | by column
-| `C-x C-x`| go to the other end of marked region
+|`C-x C-x`| go to the other end of marked region
+|`M-h` | mark paragraph
+|`C-x C-p` | mark the current page
+|`C-x h` | mark the whole buffer
+
 
 ### Editing
 
@@ -63,9 +68,11 @@
 |`C-k `      | Cut to the end of line|
 |`C-w `      | Cut selected region|
 |`M-w`       | Copy selected region|
-|`C-y`       | Paste|
+|`C-y`       | Paste last cut things|
+|`M-y`       | after a `C-y`: go through the ring of killed stuff to choose
+what to paste|
 |`C-x u`     | Undo|
-
+ 
 
 ### Wrapping text
 |Keystrokes  | Action|
