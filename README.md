@@ -8,7 +8,6 @@
 |`C-h f`| Describe command from function name|
 |`C-h ?`| help suggestions|
 
-
 ### Files
 
 |Keystrokes  | Action|
@@ -31,8 +30,18 @@
 |`C-b `      | backward a character|
 |`M-f `      | forward a word|
 |`M-b `      | backward a word|
-|`M-> `      | end of buffer|
+|`M-a `      | beginning of sentence|
+|`M-e `      | end of sentence|
+|`M-{ `      | beginning of paragraph|
+|`M-} `      | end of paragraph|
+|`C-q C-l`   | insert a page break |
+|`C-x [`     | previous page|    
+|`C-x ]`     | next page|    
+|`C-v`       | next screen|    
+|`M-v ]`     | previous screen|    
 |`M-< `      | beginning of buffer|
+|`M-> `      | end of buffer|
+|`M-g M-g`   | go to line|
 
 ### Select region
 
@@ -60,3 +69,14 @@
 ```
 M-`
 ```
+
+### Repeating a command
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-n CMD_KEYSTROKES` | repeat n times `CMD_KEYSTROKES`|
+|`C-u CMD_KEYSTROKES` | repeat 4 times `CMD_KEYSTROKES`|
+|`C-u C-u CMD_KEYSTROKES` | repeat 16 times `CMD_KEYSTROKES`|
+|`C-u C-u C-u CMD_KEYSTROKES` | repeat 64 times `CMD_KEYSTROKES`|
+
+and so on
