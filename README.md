@@ -15,6 +15,10 @@
 
 |Keystrokes  | Action|
 |------------|------------
+|`C-p `      | previous line|
+|`C-n `      | next line|
+|`C-a `      | line beginning|
+|`C-e `      | end of line|
 |`M-f `      | forward a word|
 |`M-b`       | backward a word|
 
