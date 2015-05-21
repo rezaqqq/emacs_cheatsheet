@@ -69,8 +69,7 @@
 |`C-w `      | Cut selected region|
 |`M-w`       | Copy selected region|
 |`C-y`       | Paste last cut things|
-|`M-y`       | after a `C-y`: go through the ring of killed stuff to choose
-what to paste|
+|`M-y`       | after a `C-y`: go through the ring of killed stuff to choose what to paste|
 |`C-x u`     | Undo|
  
 
