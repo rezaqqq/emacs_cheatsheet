@@ -1,9 +1,9 @@
 ## An(other, minimal,) `emacs` cheat sheet
 
 ### Display menu
-``M-```
-
-`F10`
+```
+M-` or F10
+```
 
 ### Files
 
