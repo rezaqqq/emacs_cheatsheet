@@ -1,6 +1,8 @@
-##An(other, minimal,) `emacs` cheat sheet
+## An(other, minimal,) `emacs` cheat sheet
 
 ### Display menu
+`M-\``
+
 `F10`
 
 ### Files
