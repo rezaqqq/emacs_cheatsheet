@@ -1,10 +1,5 @@
 ## An(other, minimal,) `emacs` cheat sheet
 
-### Accessing menu
-```
-M-`
-```
-
 ### Help
 
 |Keystrokes  | Action     |
@@ -12,13 +7,12 @@ M-`
 |`C-h k`| Describe command from keystrokes|
 |`C-h f`| Describe command from function name|
 |`C-h ?`| help suggestions|
-|```M-````| access to menu|
 
 
 ### Files
 
 |Keystrokes  | Action|
-|------------|------------
+|------------|------------|
 |`C-x C-f`   | Create/Open|
 |`C-x C-s`   | Save|
 |`C-x C-w`   | Save as|
@@ -55,3 +49,14 @@ M-`
 |`M-w`       | Copy region|
 |`C-y`       | Paste|
 |`C-x u`     | Undo|
+
+### Wrapping text
+|Keystrokes  | Action|
+|------------|------------
+|`M-q `      | wrap paragraph|
+|`M-x fill-region`  | wrap paragraphs from selected region|
+
+### Accessing menu
+```
+M-`
+```
