@@ -38,26 +38,34 @@
 |`C-x [`     | previous page|    
 |`C-x ]`     | next page|    
 |`C-v`       | next screen|    
-|`M-v ]`     | previous screen|    
+|`M-v`       | previous screen|    
 |`M-< `      | beginning of buffer|
 |`M-> `      | end of buffer|
 |`M-g M-g`   | go to line|
+|`C-l`       | (repeated) center display as desidered|
 
-### Select region
+### Select/mark region
 
 |Keystrokes  | Action|
 |------------|------------
 |`C-space`     | by line
 |`C-x space`   | by column
+| `C-x C-x`| go to the other end of marked region
 
 ### Editing
 
 |Keystrokes  | Action|
 |------------|------------
-|`C-w `      | Cut region|
-|`M-w`       | Copy region|
+|`C-d`       | Delete one char forward|        
+|`M-d`       | Cut one word forward   |
+|`C-d`       | Delete one char backward|        
+|`M-DEL`     | Cut one word backward  |
+|`C-k `      | Cut to the end of line|
+|`C-w `      | Cut selected region|
+|`M-w`       | Copy selected region|
 |`C-y`       | Paste|
 |`C-x u`     | Undo|
+
 
 ### Wrapping text
 |Keystrokes  | Action|
