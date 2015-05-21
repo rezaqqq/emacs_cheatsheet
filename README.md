@@ -15,11 +15,17 @@
 
 |Keystrokes  | Action|
 |------------|------------
-|`C-w `   | Cut|
-|`M-w`   | Copy|
-|`C-y`   | Paste|
-|`C-x u`   | Undo|
+|`C-w `      | Cut|
+|`M-w`       | Copy|
+|`C-y`       | Paste|
+|`C-x u`     | Undo|
 
+### Select region
+
+|Keystrokes  | Action|
+|------------|------------
+|C-space     | by line
+|C-x space   | by column
 
 
 
