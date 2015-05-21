@@ -1,7 +1,7 @@
 ## An(other, minimal,) `emacs` cheat sheet
 
 ### Display menu
-`M-\``
+``M-```
 
 `F10`
 
