@@ -71,7 +71,7 @@
 |`M-y`       | repeatedly after a `C-y`: go through the ring of killed stuff to choose what to paste|
 |`C-x u`     | Undo|
 
-### Search/replace
+### Search
 
 |Keystrokes  | Action|
 |------------|------------
@@ -79,11 +79,18 @@
 |`C-r` | Incremental search backward, type
 |`C-g` | Interrupt search, go where search began
 |`C-s C-w` | Incremental search forward, following word
-|---------|-----------|
 |`M-x word-search-forward` | Exact search forward
 |`M-x word-search-backward` | Exact search backward
+|`C-M-s` | regex search forward
+|`C-M-r` | regex search backward
 
+### Replace
 
+|Keystrokes  | Action|
+|------------|------------
+|`M-%` | Query replace
+|`C-M-%` | Regex query replace 
+|`M-x replace-string`| Replace string without querying
 
 
 ### Wrapping/Indenting text
