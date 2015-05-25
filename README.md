@@ -56,7 +56,6 @@
 |`C-x C-p` | mark the current page
 |`C-x h` | mark the whole buffer
 
-
 ### Editing
 
 |Keystrokes  | Action|
@@ -71,15 +70,32 @@
 |`C-y`       | Paste last cut things|
 |`M-y`       | repeatedly after a `C-y`: go through the ring of killed stuff to choose what to paste|
 |`C-x u`     | Undo|
- 
 
-### Wrapping text
+### Search/replace
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-s` | Incremental search forward, type
+|`C-r` | Incremental search backward, type
+|`C-g` | Interrupt search, go where search began
+|`C-s C-w` | Incremental search forward, following word
+|---------|-----------|
+|`M-x word-search-forward` | Exact search forward
+|`M-x word-search-backward` | Exact search backward
+
+
+
+
+### Wrapping/Indenting text
+
 |Keystrokes  | Action|
 |------------|------------
 |`M-q `      | wrap paragraph|
 |`M-x fill-region`  | wrap paragraphs from selected region|
+|`M-x indent-region`  | indent lines from selected region|
 
 ### Accessing menu
+
 ```
 M-`
 ```
