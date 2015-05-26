@@ -92,6 +92,15 @@
 |`C-M-%` | Regexp query replace 
 |`M-x replace-string`| Replace string without querying
 
+### Abbreviations
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-x aig` | add a global abbreviation (with last word as abbrev)
+|`C-x ail` | add abbreviation for a mode (with last word as abbrev)
+
+asdasdasdasdasd
+
 ### Wrapping/Indenting/commenting text
 
 |Keystrokes  | Action|
