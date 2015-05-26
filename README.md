@@ -92,13 +92,14 @@
 |`C-M-%` | Regexp query replace 
 |`M-x replace-string`| Replace string without querying
 
-### Wrapping/Indenting text
+### Wrapping/Indenting/commenting text
 
 |Keystrokes  | Action|
 |------------|------------
 |`M-q `      | wrap paragraph|
 |`M-x fill-region`  | wrap paragraphs from selected region|
 |`M-x indent-region`  | indent lines from selected region|
+|`M-;`  | comment line or selected region
 
 ### Accessing menu
 
