@@ -106,6 +106,13 @@
 M-`
 ```
 
+### Shell
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-! `      | execute shell command|
+
+
 ### Repeating a command
 
 |Keystrokes  | Action|
