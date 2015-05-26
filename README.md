@@ -43,7 +43,7 @@
 |`M-< `      | beginning of buffer|
 |`M-> `      | end of buffer|
 |`M-g M-g`   | go to line|
-|`C-l`       | (repeated) center display as desidered|
+|`C-l`       | (repeated) center display as desired|
 
 ### Select/mark region
 
@@ -77,21 +77,20 @@
 |------------|------------
 |`C-s` | Incremental search forward, type
 |`C-r` | Incremental search backward, type
-|`C-g` | Interrupt search, go where search began
 |`C-s C-w` | Incremental search forward, following word
 |`M-x word-search-forward` | Exact search forward
 |`M-x word-search-backward` | Exact search backward
-|`C-M-s` | regex search forward
-|`C-M-r` | regex search backward
+|`C-M-s` | incremental regexp search forward
+|`C-M-r` | incremental reg-ex search backward
+|`C-g` | Interrupt search, go where search began
 
 ### Replace
 
 |Keystrokes  | Action|
 |------------|------------
 |`M-%` | Query replace
-|`C-M-%` | Regex query replace 
+|`C-M-%` | Regexp query replace 
 |`M-x replace-string`| Replace string without querying
-
 
 ### Wrapping/Indenting text
 
@@ -117,3 +116,14 @@ M-`
 |`C-u C-u C-u CMD_KEYSTROKES` | repeat 64 times `CMD_KEYSTROKES`|
 
 and so on
+
+### Spell checking
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-x ispell-change-dictionary` | set spelling dictionary|
+|`M-$` | ispell check a single word
+|`M-x ispell-region` | check selected region|
+|`M-x ispell-buffer` | check current buffer|
+|`M-x flyspell-mode` | use flyspell for spelling on the fly|
+|`C-g` | Stop spell checking
