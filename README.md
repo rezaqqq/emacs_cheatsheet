@@ -9,15 +9,30 @@
 |`C-h ?`| help suggestions|
 |`C-x 1`| to close `*Help*` buffer|
 
-### Files
+### Files/Buffers
 
 |Keystrokes  | Action|
 |------------|------------|
-|`C-x C-f`   | Create/Open|
-|`C-x C-s`   | Save|
-|`C-x C-w`   | Save as|
-|`C-x C-c`   | Close|
+|`C-x C-f`   | Create buffer/Open file|
+|`C-x C-s`   | Save buffer to file|
+|`C-x C-w`   | Save to file named as|
 |`C-x i`     | Insert|
+|`C-x C-b` | list available buffers
+|`C-x b`   | move to a given buffer or create a new one
+|`C-x ->`   | move to next buffer in the list
+|`C-x <-`   | move to previous buffer in the list
+|`C-x k`   | kill a buffer (remove from the list)
+
+### Managing windows
+
+|Keystrokes  | Action|
+|------------|------------|
+|`C-x 2`   | split windows horizontally
+|`C-x 3`   | split windows vertically
+|`C-x o`   | go to another other window
+|`C-x 0`   | close the current window 
+|`C-x 1`   | close all but the current window 
+
 
 ### Moving
 
@@ -98,8 +113,7 @@
 |------------|------------
 |`C-x aig` | add a global abbreviation (with last word as abbrev)
 |`C-x ail` | add abbreviation for a mode (with last word as abbrev)
-
-asdasdasdasdasd
+|`M-x unexpand-abbrev` | undo last word abbreviation
 
 ### Wrapping/Indenting/commenting text
 
@@ -144,3 +158,5 @@ and so on
 |`M-x ispell-buffer` | check current buffer|
 |`M-x flyspell-mode` | use flyspell for spelling on the fly|
 |`C-g` | Stop spell checking
+
+
