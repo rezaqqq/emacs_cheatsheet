@@ -14,7 +14,8 @@
 |Keystrokes  | Action|
 |------------|------------|
 |`C-x C-f`   | Create buffer/Open file|
-|`C-x C-s`   | Save buffer to file|
+|`C-x C-s`   | Save current buffer to file|
+|`C-x s`   | Save all buffers connected to a file|
 |`C-x C-w`   | Save to file named as|
 |`C-x i`     | Insert|
 |`C-x C-b` | list available buffers
@@ -22,6 +23,7 @@
 |`C-x ->`   | move to next buffer in the list
 |`C-x <-`   | move to previous buffer in the list
 |`C-x k`   | kill a buffer (remove from the list)
+|`C-x C-q`   | set/unset a buffer as read-only
 
 ### Managing windows
 
@@ -32,6 +34,8 @@
 |`C-x o`   | go to another other window
 |`C-x 0`   | close the current window 
 |`C-x 1`   | close all but the current window 
+|`C-x ^`   | expand vertically (one line, eg use `C-u` before)
+|`C-x {`   | expand horizontally (one line, eg use `C-u` before)
 
 
 ### Moving
