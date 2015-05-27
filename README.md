@@ -36,6 +36,8 @@
 |`C-x 1`   | close all but the current window 
 |`C-x ^`   | expand vertically (one line, eg use `C-u` before)
 |`C-x {`   | expand horizontally (one line, eg use `C-u` before)
+|`C-x -`   | shrink windows if larger than buffer (thus not needed)
+|`C-x +`   | back to windows of equal size (vertically)
 
 
 ### Moving
@@ -75,13 +77,28 @@
 |`C-x C-p` | mark the current page
 |`C-x h` | mark the whole buffer
 
+
+## Bookmarks
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-x r m` | set a bookmark
+|`C-x r b` | jump to a bookmark
+|`M-x bookmark-delete` | delete a saved bookmark
+|`M-x bookmark-rename` | rename a saved bookmark
+
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-x r l` | display bookmarks list
+
+
 ### Editing
 
 |Keystrokes  | Action|
 |------------|------------
 |`C-d`       | Delete one char forward|        
 |`M-d`       | Cut one word forward   |
-|`C-d`       | Delete one char backward|        
 |`M-DEL`     | Cut one word backward  |
 |`C-k `      | Cut to the end of line|
 |`C-w `      | Cut selected region|
@@ -134,11 +151,27 @@
 M-`
 ```
 
-### Shell
+### Executing command and shell mode
 
 |Keystrokes  | Action|
 |------------|------------
-|`M-! `      | execute shell command|
+|`M-!`      | execute shell command|
+|`C-u M-!`  | execute shell command and put output in current buffer|
+|`M-|`      | execute shell command on marked region|
+|`M-x shell` | shell mode|
+
+**Shell mode**:
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-c C-z` | equal to `C-z` in pure shell|
+|`C-c C-d` | as above with `C-d`|
+|`C-c C-c` | as above with `C-c`|
+| `M-p` | history, previous command
+| `M-n` | history, next command
+
+
+
 
 
 ### Repeating a command
@@ -162,5 +195,3 @@ and so on
 |`M-x ispell-buffer` | check current buffer|
 |`M-x flyspell-mode` | use flyspell for spelling on the fly|
 |`C-g` | Stop spell checking
-
-
