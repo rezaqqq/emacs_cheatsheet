@@ -151,29 +151,6 @@
 M-`
 ```
 
-### Executing command and shell mode
-
-|Keystrokes  | Action|
-|------------|------------
-|`M-!`      | execute shell command|
-|`C-u M-!`  | execute shell command and put output in current buffer|
-|`M-|`      | execute shell command on marked region|
-|`M-x shell` | shell mode|
-
-**Shell mode**:
-
-|Keystrokes  | Action|
-|------------|------------
-|`C-c C-z` | equal to `C-z` in pure shell|
-|`C-c C-d` | as above with `C-d`|
-|`C-c C-c` | as above with `C-c`|
-| `M-p` | history, previous command
-| `M-n` | history, next command
-
-
-
-
-
 ### Repeating a command
 
 |Keystrokes  | Action|
@@ -195,3 +172,57 @@ and so on
 |`M-x ispell-buffer` | check current buffer|
 |`M-x flyspell-mode` | use flyspell for spelling on the fly|
 |`C-g` | Stop spell checking
+
+
+### Executing command and shell mode
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-!`      | execute shell command|
+|`C-u M-!`  | execute shell command and put output in current buffer|
+|`M-|`      | execute shell command on marked region|
+|`M-x shell` | shell mode|
+
+**Shell mode**:
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-c C-z` | equal to `C-z` in pure shell|
+|`C-c C-d` | as above with `C-d`|
+|`C-c C-c` | as above with `C-c`|
+| `M-p` | history, previous command
+| `M-n` | history, next command
+
+### Directory editor mode (Dired)
+
+|Keystrokes  | Action|
+|------------|------------
+|`C-x d` | go in Dired mode
+|`C-x C-f directory_path` | go in Dired mode
+|`q` | quit|
+|`g` | refresh dir listing|
+|`s` | sort list of files by name/date|
+|`v` | view selected file (read only)|
+|`^` | move to parent directory|
+|`>` | go to parent directory|
+|`<` | go to previous directory|
+|`Enter` | edit selected file/enter directory|
+|`+` | create a directory
+|`m` | mark a file|
+|`%m` | mark files via regexp on the name|
+|`%g` | mark files via regexp on the content (similar to grep)|
+|`u` | unmark a file|
+|`U` | unmark all marked files|
+|`D` | delete
+|`C` | copy
+|`R` | rename/move the file
+|`S` | make soft link
+|`Z` | compress/uncompress (gzip)
+|`! command`| run command on a file
+
+### Other useful modes
+
+|Keystrokes  | Action|
+|------------|------------
+|`M-x man`| go in manual mode 
+|`M-x calendar`| go in manual mode 
