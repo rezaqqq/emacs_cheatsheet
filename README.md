@@ -224,5 +224,5 @@ and so on
 
 |Keystrokes  | Action|
 |------------|------------
-|`M-x man`| go in manual mode 
-|`M-x calendar`| go in manual mode 
+|`M-x man`| manpages mode 
+|`M-x calendar`| view calendar
