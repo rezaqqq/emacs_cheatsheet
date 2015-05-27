@@ -78,7 +78,7 @@
 |`C-x h` | mark the whole buffer
 
 
-## Bookmarks
+### Bookmarks
 
 |Keystrokes  | Action|
 |------------|------------
