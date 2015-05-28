@@ -235,9 +235,10 @@ Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
 |Keystrokes  | Action|
 |------------|------------
 |`M-x compile`| compile (`make -k` by default)
-| `C-x backtick`| buffer set to next compile error row col (no need to wait compilation to finish
-| `M-n` | next error
-| `M-p` | previous error
-| `C-c C-c` | go to current error with a buffer
-| `space` | scroll down
-| `del` | scroll up
+|`C-x backtick`| buffer set to next compile error
+|`M-n` | next error
+|`M-p` | previous error
+|`C-c C-c` | go to current error with a buffer
+|`space` | scroll down
+|`del` | scroll up
+
