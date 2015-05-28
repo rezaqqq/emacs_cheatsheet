@@ -142,7 +142,7 @@
 |------------|------------
 |`M-q `      | wrap paragraph|
 |`M-x fill-region`  | wrap paragraphs from selected region|
-|`M-x indent-region`  | indent lines from selected region|
+|`C-M-\`  | indent lines from selected region|
 |`M-;`  | comment line or selected region
 
 ### Accessing menu
@@ -242,3 +242,10 @@ Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
 |`space` | scroll down
 |`del` | scroll up
 
+### etags
+
+|Keystrokes  | Action|
+|------------|------------
+|`etags *.[ch]` | from command line, builds/update tag table (`TAGS` file by default
+|`M-x visit-tags-table`| tell emacs to use a tag table
+|`M-.`|
