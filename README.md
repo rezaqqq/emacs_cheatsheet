@@ -4,8 +4,11 @@
 
 |Keystrokes  | Action     |
 |------------|------------|
+|`C-h C-h`| Help for help system|
 |`C-h k`| Describe command from keystrokes|
 |`C-h f`| Describe command from function name|
+|`C-h v`| Describe variable|
+|`C-h b`| Describe bindings for current buffer (in ordered fashion)|
 |`C-h ?`| help suggestions|
 |`C-x 1`| to close `*Help*` buffer|
 
@@ -21,7 +24,7 @@
 |`C-x C-b` | list available buffers
 |`C-x b`   | move to a given buffer or create a new one
 |`C-x ->`   | move to next buffer in the list
-|`C-x <-`   | move to previous buffer in the list
+|`C-x <-`   | move to previous buffer in the) list
 |`C-x k`   | kill a buffer (remove from the list)
 |`C-x C-q`   | set/unset a buffer as read-only
 
@@ -246,6 +249,7 @@ Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
 
 |Keystrokes  | Action|
 |------------|------------
-|`etags *.[ch]` | from command line, builds/update tag table (`TAGS` file by default
+|`etags *.[ch]` | from command line, builds/update tag table (`TAGS` file by default)
 |`M-x visit-tags-table`| tell emacs to use a tag table
-|`M-.`|
+|`M-.`| find tag/visit definition in this window
+|`C-x 4 .` | find tag/visit in other window
