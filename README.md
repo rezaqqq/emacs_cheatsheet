@@ -253,3 +253,11 @@ Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
 |`M-x visit-tags-table`| tell emacs to use a tag table
 |`M-.`| find tag/visit definition in this window
 |`C-x 4 .` | find tag/visit in other window
+
+
+### magit
+
+http://daemianmack.com/magit-cheatsheet.html
+
+http://magit.vc/manual/1.2/magit_1.html#Introduction	
+
