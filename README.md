@@ -1,4 +1,4 @@
-## An(other, minimal,) `emacs` cheat sheet
+# My minimal emacs cheat sheet
 
 ### Help
 
@@ -146,11 +146,6 @@
 |`C-M-\`  | indent lines from selected region|
 |`M-;`  | comment line or selected region
 
-### Accessing menu
-
-```
-M-`
-```
 
 ### Repeating a command
 
@@ -175,7 +170,7 @@ and so on
 |`C-g` | Stop spell checking
 
 
-### Executing command and shell mode
+### Shell and shell mode
 
 |Keystrokes  | Action|
 |------------|------------
@@ -194,6 +189,18 @@ and so on
 | `M-p` | history, previous command
 | `M-n` | history, next command
 
+
+
+### Python mode
+
+|Keystrokes  | Action|
+|------------|------------
+
+
+
+
+
+<!--
 ### Directory editor mode (Dired)
 
 |Keystrokes  | Action|
@@ -228,7 +235,6 @@ and so on
 |`M-x man`| manpages mode 
 |`M-x calendar`| view calendar
 
-
 ### Compile
 
 Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
@@ -252,10 +258,5 @@ Start with something like `emacs *.[ch] Makefile`; do the makefile. Then
 |`M-.`| find tag/visit definition in this window
 |`C-x 4 .` | find tag/visit in other window
 
-
-### magit
-
-http://daemianmack.com/magit-cheatsheet.html
-
-http://magit.vc/manual/1.2/magit_1.html#Introduction	
+-->
 
