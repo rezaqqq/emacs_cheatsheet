@@ -7,6 +7,7 @@
 |`C-h C-h`| Help for help system|
 |`C-h k`| Describe command from keystrokes|
 |`C-h f`| Describe command from function name|
+|`C-h m`| List keybinding for this mode|
 |`C-h v`| Describe variable|
 |`C-h b`| Describe bindings for current buffer (in ordered fashion)|
 |`C-h ?`| help suggestions|
@@ -41,7 +42,6 @@
 |`C-x {`   | expand horizontally (one line, eg use `C-u` before)
 |`C-x -`   | shrink windows if larger than buffer (thus not needed)
 |`C-x +`   | back to windows of equal size (vertically)
-
 
 ### Moving
 
@@ -80,7 +80,6 @@
 |`C-x C-p` | mark the current page
 |`C-x h` | mark the whole buffer
 
-
 ### Bookmarks
 
 |Keystrokes  | Action|
@@ -89,7 +88,6 @@
 |`C-x r b` | jump to a bookmark
 |`M-x bookmark-delete` | delete a saved bookmark
 |`M-x bookmark-rename` | rename a saved bookmark
-
 
 |Keystrokes  | Action|
 |------------|------------
