@@ -7,7 +7,7 @@
 |`C-h C-h`| Help for help system|
 |`C-h k`| Describe command from keystrokes|
 |`C-h f`| Describe command from function name|
-|`C-h m`| List keybinding for this mode|
+|`C-h m`| List keybinding for current modes|
 |`C-h v`| Describe variable|
 |`C-h b`| Describe bindings for current buffer (in ordered fashion)|
 |`C-h ?`| help suggestions|
@@ -84,14 +84,11 @@
 
 |Keystrokes  | Action|
 |------------|------------
+|`C-x r l` | display bookmarks list
 |`C-x r m` | set a bookmark
 |`C-x r b` | jump to a bookmark
 |`M-x bookmark-delete` | delete a saved bookmark
 |`M-x bookmark-rename` | rename a saved bookmark
-
-|Keystrokes  | Action|
-|------------|------------
-|`C-x r l` | display bookmarks list
 
 
 ### Editing
@@ -195,9 +192,11 @@ and so on
 
 |Keystrokes  | Action|
 |------------|------------
-
-
-
+| `M Tab`   | autocomplete
+| `C-c C-r` | evaluate region
+| `C-c C-c` | evaluate buffer
+| `C-c C-l` | evaluate file
+| `C-c C-v` | static check of code 
 
 
 <!--
